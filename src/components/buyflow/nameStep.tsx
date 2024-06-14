@@ -18,6 +18,7 @@ const NameStep: React.FC<NameStepProps> = (props) => {
           }}
           value={firstName}
           className="input input-bordered input-primary w-full max-w-xs"
+          required
         ></input>
       </div>
       <div className="flex flex-col gap-2 items-start">
@@ -29,6 +30,7 @@ const NameStep: React.FC<NameStepProps> = (props) => {
           }}
           value={lastName}
           className="input input-bordered input-primary w-full max-w-xs"
+          required
         ></input>
       </div>
       <button

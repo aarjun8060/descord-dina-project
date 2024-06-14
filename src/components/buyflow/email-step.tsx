@@ -17,6 +17,7 @@ const EmailStep: React.FC<EmailStepProps> = (props) => {
           }}
           value={email}
           className="input input-bordered input-primary w-full max-w-xs"
+          required
         ></input>
       </div>
       <button
